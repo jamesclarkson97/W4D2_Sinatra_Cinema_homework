@@ -1,0 +1,26 @@
+body {
+    background-color: #648381;
+    border-style: groove;
+    border-color: #42F2F7;
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+  outline-style: solid;
+  outline-width: 20px;
+  outline-color: #0D2818;
+  font-family: fantasy;
+  
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+a:link {
+    color: #4B244A;
+}
+
+a:visited {
+    color: #D2D68D;
+}
