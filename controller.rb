@@ -10,22 +10,22 @@ get '/films' do
 end
 
 get '/films/Beetlejuice' do
-    @film = Film.find(3)
+    @film = Film.find('3'.to_i)
     erb(:specific_film)
 end
 
 get '/films/Ghost' do
-    @film = Film.find(1)
+    @film = Film.find('1'.to_i)
     erb(:specific_film)
 end
 
 get '/films/The' do
-    @film = Film.find(2)
+    @film = Film.find('2'.to_i)
     erb(:specific_film)
 end
 
 get '/films/Casper' do
-    @film = Film.find(4)
+    @film = Film.find('4'.to_i)
     erb(:specific_film)
 end
 
