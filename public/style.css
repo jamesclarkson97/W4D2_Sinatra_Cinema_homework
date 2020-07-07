@@ -14,13 +14,18 @@ body {
 }
 
 h1 {
-    text-align: center;
     text-decoration: underline;
 }
+
 a:link {
     color: #4B244A;
 }
 
 a:visited {
     color: #D2D68D;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
 }
