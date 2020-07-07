@@ -4,7 +4,7 @@ require('sinatra/contrib/all')
 require_relative('./models/film')
 also_reload('.models/*')
 
-get '/films' do
+get '/index' do
     @films = Film.all()
     erb(:index)
 end
