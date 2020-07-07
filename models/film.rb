@@ -99,6 +99,14 @@ class Film
     return Film.map_items(film_data)
   end
 
+  def self.find(id)
+    sql = "SELECT * FROM films
+    WHERE id = $1"
+    values = [id]
+    film_data = SqlRunner.run(sql, values)
+    return Film.map_item(film_data)
+  end
+
   def self.delete_all()
     sql = "DELETE FROM films"
     values = []

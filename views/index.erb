@@ -4,6 +4,6 @@
 
 <ul>
 <% for singular in @films %>
-    <li><%= singular.title %></li>
+    <li><a href= http://localhost:4567/films/<%=singular.title%> > <%=singular.title%></a></li>
   <% end %>
 </ul>
